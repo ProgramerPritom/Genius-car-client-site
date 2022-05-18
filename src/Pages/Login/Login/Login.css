@@ -1,0 +1,9 @@
+.form-area form{
+    border: 3px solid pink;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: -10px 12px 10px rgb(226, 196, 201);
+}
+.create-register-text span{
+    cursor: pointer;
+}
