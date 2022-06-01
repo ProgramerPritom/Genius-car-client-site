@@ -43,9 +43,9 @@ const CheckOut = () => {
         <div className='w-50 mx-auto'>
             <h2>Please Order : {service.name}</h2>
             <form onSubmit={handlePlaceOrder}>
-                <input className='w-100 mb-2 mt-3' type="text" name='name' value={user.displayName} placeholder='Enter Name' required readOnly disabled/>
+                <input className='w-100 mb-2 mt-3' type="text" name='name' value={user?.displayName} placeholder='Enter Name' required readOnly disabled/>
                 <br />
-                <input className='w-100 mb-2' type="text" value={user.email} name='email' placeholder='Enter Email' readOnly disabled required />
+                <input className='w-100 mb-2' type="text" value={user?.email} name='email' placeholder='Enter Email' readOnly disabled required />
                 <br />
                 <input className='w-100 mb-2' type="text" name='service' value={service.name} placeholder='Enter Service' required readOnly/>
                 <br />
